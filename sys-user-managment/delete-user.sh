@@ -115,7 +115,7 @@ process_answer
 ##################################################################
 # Check that USER_ACCOUNT is really an account on the system
 #
-USER_ACCOUNT_RECORD=$(cat /etc/passwd | grep -w $USER_ACCOUNT)
+USER_ACCOUNT_RECORD=$(cat /etc/passwd | ^grep -w $USER_ACCOUNT)
 #
 if [ $? -eq 1 ]		# If the account is not found, exit script
 then	

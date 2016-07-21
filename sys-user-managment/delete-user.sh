@@ -2,9 +2,10 @@
 ##################################################
 # Name: delete-user.sh
 # Description: Automates the removal of a user from a system.
-# Script Maintainer: Jacob Amey
+# Script Maintainer: Atharva Deshmukh
+# Shamelessly stolen from: Jacob Amey
 #
-# Last Updated: July 9th 2013
+# Last Updated: July 21st 2016
 ##################################################
 # get_answer Function
 #
